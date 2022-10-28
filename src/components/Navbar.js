@@ -12,7 +12,7 @@ const Navbar = () => {
 			<div className="logo">
 				<img src={Logo} alt="logo" />
 			</div>
-			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
+			<ul className={click ? "nav-menu active" : "nav-menu"}>
 				<li className="nav-item">
 					<a href="/">Home</a>
 				</li>
@@ -32,7 +32,6 @@ const Navbar = () => {
 				) : (
 					<FaBars size={30} style={{ color: "#f8f8f8" }} />
 				)}
-				/>
 			</div>
 		</div>
 	);
